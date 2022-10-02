@@ -1,7 +1,9 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # WE ❤ WEB Blog
+Mijn blog website om WE ❤ WEB sessies bij te houden.
 
+![screencapture-127-0-0-1-5173-2022-10-02-15_07_49](https://user-images.githubusercontent.com/69635977/193456736-4d3a7d12-471a-403f-9380-398ece7f7b52.png)
 
 ## Inhoudsopgave
 
