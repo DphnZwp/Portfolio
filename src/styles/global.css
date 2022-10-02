@@ -45,27 +45,47 @@ header {
   justify-content: center;
 }
 
-nav {
+.sun {
   padding: 1em 2em 2em 2em;
   background-color: var(--orange);
-  width: min-content;
+  width: max-content;
   border-radius: 0 0 5em 5em;
   position: absolute;
   z-index: 1;
+}
+
+.dark-mode-toggle {
+  padding: 1em;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background-image: url('/cloud.png');
+  background-color: var(--orange);
+  background-repeat: no-repeat;
+  border: none;
+  animation: wobble-reverse 9s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes wobble-reverse {
+  0% {
+    transform: translateX(.5em);
+  }
+  50% {
+    transform: translateX(-.5em);
+  }
+  100% {
+    transform: translateX(.6em);
+  }
+}
+
+.dark-mode-toggle:hover {
+  color: var(--white);
+  background-image: url('/night-cloud.png');
 }
 
 ul {
   display: flex;
   gap: 1em;
   list-style: none;
-}
-
-.menu__link {
-  color: var(--black);
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.menu__link:hover {
-  border-bottom: 2px solid var(--black);
 }

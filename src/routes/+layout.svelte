@@ -2,12 +2,12 @@
   import '../styles/global.css'
 </script>
 <header>
-  <nav class="menu">
-    <ul>
-      <li><a class="menu__link" href="/">Home</a></li>
-      <li><a class="menu__link" href="/">Blog</a></li>
-    </ul>
-  </nav>
+  <section class="sun">
+    <button 
+      class="dark-mode-toggle">
+      Nacht modus
+    </button>
+  </section>
 </header>
 
 <main>

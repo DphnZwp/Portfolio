@@ -198,15 +198,29 @@
   }
 
   .post__link {
+    padding: .25em;
     color: var(--black);
     font-weight: 700;
     text-decoration: none;
-    border-bottom: 2px solid var(--black);
+    position : relative;
   }
 
-  /* .post__link:hover {
-    border-bottom: 2px solid var(--orange)
-  } */
+  .post__link::after {
+    content : "";
+    position : absolute;
+    width : 100%;
+    height : 3px;
+    background-color: var(--black);
+    border-radius: 2.5em;
+    bottom: 0;
+    left: 0;
+    transform : scaleX(1);
+    transition: transform 1s;
+  }
+
+  .post__link:hover::after {
+    transform : scaleX(.8);
+  }
 
   /* .stripes {
     margin-bottom: 1em;
