@@ -1,0 +1,71 @@
+:root {
+  /* Kleuren */
+  --black: #000;
+  --white: #fff;
+  --blue: #D0E5FF;
+  --orange: #fbcb95;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+p {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+header {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  padding: 1em 2em 2em 2em;
+  background-color: var(--orange);
+  width: min-content;
+  border-radius: 0 0 5em 5em;
+  position: absolute;
+  z-index: 1;
+}
+
+ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+}
+
+.menu__link {
+  color: var(--black);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  border-bottom: 2px solid var(--black);
+}
