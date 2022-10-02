@@ -3,7 +3,7 @@
 # WE ❤ WEB Blog
 Mijn blog website om WE ❤ WEB sessies bij te houden.
 
-![screencapture-127-0-0-1-5173-2022-10-02-15_07_49](https://user-images.githubusercontent.com/69635977/193456736-4d3a7d12-471a-403f-9380-398ece7f7b52.png)
+![Home](https://user-images.githubusercontent.com/69635977/193472066-5d53eb29-d78f-4a86-9f48-314698f85d78.png)
 
 ## Inhoudsopgave
 
@@ -15,7 +15,7 @@ Mijn blog website om WE ❤ WEB sessies bij te houden.
   * [Licentie](#licentie)
   
 ## Beschrijving
-[🌐 ]dffgsgsdfhfdhdghdf
+[🌐 https://we-love-web-six.vercel.app/](https://we-love-web-six.vercel.app/)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
