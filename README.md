@@ -3,7 +3,7 @@
 # WE ❤ WEB Blog
 Mijn blog website om WE ❤ WEB sessies bij te houden.
 
-![screencapture-127-0-0-1-5173-2022-10-02-18_09_32](https://user-images.githubusercontent.com/69635977/193464370-f4be802d-7d33-43a3-abb7-3f08102299af.png)
+![Home](https://user-images.githubusercontent.com/69635977/193472066-5d53eb29-d78f-4a86-9f48-314698f85d78.png)
 
 ## Inhoudsopgave
 
