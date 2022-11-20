@@ -1,6 +1,3 @@
-<script>
-  import '../styles/global.css'
-</script>
 <header>
   <section class="sun">
     <button 
