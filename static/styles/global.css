@@ -60,6 +60,7 @@ header {
   font-size: 1rem;
   font-weight: 700;
   background-image: url('/cloud.png');
+  background-size: contain;
   background-color: var(--orange);
   background-repeat: no-repeat;
   border: none;

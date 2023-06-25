@@ -51,7 +51,7 @@
         C1321.7,117,1319.2,102.2,1326.2,97.4z"/>
     </g>
   </svg>
-    <h1 class="hero__title">WE ❤ WEB Blog</h1>
+    <h1 class="hero__title">I ❤ WEB Blog</h1>
 </section>
 
 <section class="posts">
@@ -135,27 +135,31 @@
   }
 
   .hero__title {
-    padding-top: 4em;
+    padding-top: 5em;
     background-image: url("/background.jpg");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
   .posts {
-    margin: 5em;
+    margin: 2em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5em;
   }
 
   .post {
-    padding: 2.5em;
+    padding: 2em;
     background-color: var(--blue);
     border-radius: 2.5em;
   }
 
   .post__image{
     margin-bottom: 1em;
+    width: 100%;
     height: 10em;
+    object-fit: cover;
   }
 
   .post__header {
