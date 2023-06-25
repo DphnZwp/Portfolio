@@ -11,6 +11,7 @@ export const load = async ({ fetch }) => {
                         url
                       }
                       title
+                      intro
                       content {
                         html
                       }
