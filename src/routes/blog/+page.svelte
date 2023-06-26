@@ -6,10 +6,11 @@
 </script>
 
 <Header>
-	Blog
 </Header>
 
 <main>
+  <h1 class="hero__title">Blog</h1>
+
   <div class="posts">
     {#each data.posts as { title, intro }}
       <article class="post">
@@ -24,9 +25,9 @@
 
 <style>
   .posts {
-    padding-top: 2em;
+    padding-top: 2rem;
     padding-right: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 10em;
     padding-left: 2em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
