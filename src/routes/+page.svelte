@@ -107,7 +107,9 @@
 	}
 
  	.hero p {
+		margin-right: 1rem;
 		margin-top: 1rem;
+		margin-left: 1rem;
 		font-size: 1.25rem;
 		font-weight: 600;
 		max-width: 30rem;
