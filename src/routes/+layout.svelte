@@ -2,17 +2,17 @@
   <slot />
   <footer>
     <div class="contact">
-      <a class="email" href="/">
-        Email        
+      <a class="email" href="mailto:zwuupdaphne@gmail.com">
+        zwuupdaphne@gmail.com        
       </a>
-      <a class="phone" href="/">
-        Bellen  
+      <a class="phone" href="tel:+31648239097">
+        +31 6 48 23 90 97
       </a>
     </div>
     <div class="socials">
-      <a class="linkedin" href="/">        
+      <a class="linkedin" href="/">         
       </a>
-      <a class="github" href="/">  
+      <a class="github" href="/">
       </a>
     </div>
   </footer>
@@ -30,7 +30,7 @@
   .contact {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .socials {
@@ -53,5 +53,26 @@
 
   .github:hover {
     content: url('/images/github-hover.svg');
+  }
+
+  footer a {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .contact a::after {
+    content: "";
+    height: 3px;
+    background-color: black;
+    bottom: 0;
+    display: block;
+    border-radius: 2.5em;
+    transition: transform .5s;
+    transform: scaleX(1);
+  }
+
+  .contact a:hover::after {
+    transform: scaleX(.5);
   }
 </style>

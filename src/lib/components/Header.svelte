@@ -12,7 +12,7 @@
     <nav>
       <ul class="navigation">
         <li>
-          <a href="/#projecten">Projecten</a>
+          <a href="/#projects">Projecten</a>
         </li>
         <li>
           <a href="/blog">Blog</a>
@@ -83,7 +83,7 @@
 
   .cloud {
     margin-top: 4rem;
-    margin-right: 20rem;
+    margin-right: 19rem;
     display: flex;
     align-items: center;
     gap: 1rem;
