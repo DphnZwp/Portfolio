@@ -82,8 +82,8 @@
   }
 
   .cloud {
-    margin-top: 4rem;
-    margin-right: 19rem;
+    margin-top: 6rem;
+    margin-right: 15rem;
     display: flex;
     align-items: center;
     gap: 1rem;
