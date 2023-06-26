@@ -98,7 +98,7 @@
 	}
 
 	.hero {
-		margin-top: -6rem;
+		margin-top: -10rem;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
@@ -202,6 +202,10 @@
 	}
 
 	@media (min-width: 70em) {
+		.hero {
+			margin-top: -6rem;
+		}
+
 		#projects {
 			padding-right: 2em;
 			padding-top: 3rem;

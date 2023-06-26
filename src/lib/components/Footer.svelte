@@ -29,13 +29,14 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: left;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .socials {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;
+  align-items: left;
+  gap: .5rem;
 }
 
 .linkedin {
@@ -81,6 +82,13 @@ footer a {
     flex-direction: row;
     align-items: center;
     gap: 2rem;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
   }
 }
 </style>
