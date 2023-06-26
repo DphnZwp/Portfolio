@@ -29,7 +29,8 @@
 
   .contact {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     gap: 2rem;
   }
 
@@ -74,5 +75,14 @@
 
   .contact a:hover::after {
     transform: scaleX(.5);
+  }
+
+	@media (min-width: 70em) {
+    .contact {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+    }
   }
 </style>
