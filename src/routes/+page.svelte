@@ -94,6 +94,7 @@
 
 <style>
 	h1 {
+		font-size: 4rem;
 		max-width: 52rem;
 	}
 
@@ -202,6 +203,10 @@
 	}
 
 	@media (min-width: 70em) {
+		h1 {
+			font-size: 5rem;
+		}
+
 		.hero {
 			margin-top: -6rem;
 		}
