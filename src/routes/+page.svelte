@@ -152,7 +152,7 @@
 	}
 
 	.characteristics {
-		margin-top: .25rem;
+		margin-top: .5rem;
 		display: flex;
 		flex-wrap: wrap;
 		gap: .5rem;
