@@ -1,23 +1,36 @@
-<header class="hero">
-  <div class="wrapper">
-    <div class="sun">
-      <button 
-        class="dark-mode-toggle">
-        Nacht modus
-      </button>
-    </div>
+<header>
+  <div class="socials">
+    <a class="logo" aria-label="Logo link" aria-hidden="true" href="/">
+      <img src="/images/daphne-logo.svg" alt="">
+    </a>
+    <a class="linkedin" href="/">
+      <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M40.4 0H4.6C2.1 0 0 2.1 0 4.6V40.5C0 42.9 2.1 45 4.6 45H17.3H27.7H40.4C42.9 45 45 42.9 45 40.4V4.6C45 2.1 42.9 0 40.4 0ZM9.6 10.1C10.2 9.5 11 9.2 12 9.2C12.9 9.2 13.6 9.5 14.2 10C14.7 10.5 15 11.3 15 12.2C15 13.1 14.7 13.9 14.1 14.5C13.5 15.1 12.7 15.4 11.7 15.4C10.8 15.4 10.1 15.1 9.6 14.6C9 14.1 8.8 13.4 8.8 12.4C8.6 11.5 9 10.7 9.6 10.1ZM15.3 33.7C15.1 34.2 14.6 34.7 14 35.1C13.4 35.5 12.6 35.8 11.6 35.8C10.7 35.8 9.9 35.5 9.4 35C8.8 34.5 8.6 33.6 8.6 32.4C8.6 31.8 8.7 31.1 8.8 30.5C8.9 29.9 9.1 29.3 9.2 28.7C9.4 28.1 9.5 27.5 9.7 26.9C9.8 26.3 9.9 25.7 9.9 25C9.9 24.6 9.8 24.2 9.7 23.8C9.6 23.5 9.4 23.3 9.1 23.1C8.7 22.9 8.4 22.7 8.1 22.5C7.7 22.2 7.5 21.8 7.5 21.3C7.5 20.8 7.7 20.3 8.1 19.8C8.5 19.3 9 18.9 9.6 18.6C10.2 18.3 10.9 18.1 11.6 18.1C12.4 18.1 13 18.3 13.4 18.8C13.8 19.2 14 19.7 14.1 20.4C14.2 21 14.3 21.6 14.3 22.1C14.3 23 14.2 23.8 14.1 24.7C14 25.5 13.8 26.3 13.7 27C13.6 27.5 13.5 28 13.5 28.4C13.4 28.8 13.4 29.2 13.4 29.5C13.4 30 13.5 30.4 13.7 30.7C14 31 14.4 31.3 14.9 31.5C15.3 31.7 15.5 32.1 15.5 32.5C15.7 32.7 15.5 33.1 15.3 33.7ZM37.3 33.6C37.1 34.1 36.8 34.6 36.3 35.1C35.8 35.6 35 35.8 34.1 35.8C32.9 35.8 31.9 35.4 31.2 34.5C30.5 33.7 30.2 32.6 30.2 31.3C30.2 30.6 30.3 29.9 30.4 29.2C30.5 28.5 30.7 27.9 30.9 27.3C31 26.9 31.1 26.4 31.2 26C31.3 25.6 31.3 25.2 31.3 24.9C31.3 23.9 30.9 23.6 29.9 23.6C28.9 23.6 28.1 24 27.4 24.7C26.6 25.5 25.9 26.5 25.4 27.6C24.8 28.8 24.4 30 24 31.2V32.1C24 33.2 23.7 34.1 23.1 34.9C22.5 35.7 21.6 36 20.5 36C19.8 36 19.3 35.8 19 35.5C18.8 35.2 18.7 34.9 18.8 34.5C19.1 33.3 19.3 32.2 19.5 31C19.7 29.8 19.8 28.7 19.8 27.7C19.8 26.3 19.7 25.3 19.6 24.7C19.4 24 19.2 23.7 19.1 23.6C18.9 23.4 18.6 23.2 18.2 23.1C17.9 23 17.7 22.8 17.5 22.7C17.3 22.5 17.1 22.2 17.1 21.8C17.1 21.3 17.3 20.8 17.6 20.3C17.9 19.8 18.4 19.3 19 19C19.6 18.6 20.3 18.4 21.1 18.4C22.2 18.4 23 18.8 23.4 19.6C23.8 20.3 24 21.2 24 22.3C24 22.7 24 23.2 23.9 23.7C24.1 23.3 24.3 23 24.5 22.7C25.3 21.4 26.2 20.4 27.3 19.6C28.4 18.8 29.7 18.4 31.1 18.4C32.7 18.4 33.9 18.9 34.7 19.9C35.5 20.8 35.9 22 35.9 23.4C35.9 24 35.8 24.5 35.7 25C35.6 25.5 35.5 26 35.3 26.4C35.2 26.8 35.1 27.2 35 27.7C34.9 28.1 34.9 28.5 34.9 29C34.9 30.3 35.5 31.1 36.7 31.6C37.5 31.9 37.6 32.5 37.6 32.8C37.5 32.7 37.5 33.1 37.3 33.6Z" fill="black"/>
+        </svg>            
+    </a>
+    <a class="github" href="/">
+      <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M40.4212 0H4.55348C2.09947 0 0 2.09947 0 4.55348V40.4212C0 42.8752 2.09947 44.9747 4.55348 44.9747H17.2833V44.886V44.8354L17.3087 43.1513C17.3087 42.0371 17.296 40.8976 17.2833 39.796C17.2833 39.4035 17.2707 39.0237 17.2707 38.6311C17.2707 38.5425 17.258 38.4665 17.258 38.4159C17.2454 38.2513 17.1061 38.1246 16.9415 38.1246C16.6249 38.1246 16.3084 38.1373 15.9918 38.15C15.2827 38.1753 14.6117 38.2006 13.9279 38.1753C12.4846 38.112 11.5222 37.7701 10.8005 37.0611C10.4333 36.7065 10.1421 36.2254 9.87619 35.7696C9.7116 35.4783 9.54699 35.1744 9.39505 34.8706C9.16714 34.4147 8.92657 33.9462 8.63534 33.5285C8.38211 33.1612 8.04023 32.87 7.69837 32.5914C7.55909 32.4774 7.43247 32.3762 7.31852 32.2623C7.22988 32.1863 7.14125 32.1103 7.06528 32.047C7.01463 32.009 6.87535 31.8824 6.71075 31.7178C6.63478 31.6418 6.57147 31.5658 6.59679 31.5278C6.59679 31.5152 6.60945 31.5025 6.71075 31.4772C6.77406 31.4645 6.83736 31.4392 6.85003 31.4392C7.34383 31.3632 7.85031 31.4772 8.44541 31.7811C9.29376 32.2116 9.96483 32.8827 10.5219 33.8069C11.0918 34.7946 11.8514 35.4657 12.763 35.8202C14.3838 36.4532 15.9539 35.9848 16.9921 35.5796C17.22 35.491 17.372 35.2251 17.41 35.0099C17.5873 33.9589 17.9924 33.1612 18.6762 32.4774C18.8154 32.3383 18.8028 32.0723 18.5749 31.9457L18.0683 31.8697C17.7899 31.8317 17.5239 31.7811 17.2707 31.7558C15.3587 31.4772 13.7254 30.8695 12.2946 29.9071C10.9525 28.9955 10.0155 27.7293 9.43304 26.0326C8.59736 23.5889 8.44541 21.2971 8.95188 19.0307C9.21778 17.8532 9.7749 16.7768 10.6232 15.8146C10.7499 15.6626 10.8258 15.5233 10.8638 15.3714C10.9272 15.1056 10.8385 14.8776 10.8132 14.8143C10.5979 14.2065 9.9775 10.446 11.0791 9.72426C11.4082 9.509 11.8388 9.63562 12.6997 9.90152C14.3458 10.408 15.0169 10.7499 16.473 11.7248C16.7262 11.8894 17.1061 11.9527 17.3973 11.8768C20.8033 11.0285 24.2094 11.0285 27.514 11.8768C27.9319 11.9781 28.2738 11.9147 28.6409 11.6742C29.8438 10.8765 31.11 10.256 32.4016 9.83821C33.0979 9.61029 33.5411 9.509 33.7437 9.62296C33.9462 9.73691 34.0855 10.1548 34.2628 10.8512C34.6427 12.3073 34.6047 13.6241 34.1742 14.903C34.0855 15.1562 34.1615 15.536 34.3388 15.7386C35.7062 17.3467 36.3647 19.2332 36.3141 21.4997C36.2887 23.1078 36.0608 24.5385 35.6303 25.8933C34.9213 28.1092 33.4778 29.6919 31.2239 30.7428C30.0717 31.2746 28.7676 31.6291 27.1216 31.8444C26.995 31.8571 26.8683 31.8824 26.7291 31.9077L26.4252 31.9584C26.1972 32.085 26.1846 32.3509 26.3238 32.4901C27.033 33.1866 27.4507 34.0222 27.59 35.0479C27.666 35.5796 27.704 36.1115 27.704 36.6558C27.7167 38.15 27.7167 39.6694 27.7167 41.1255C27.7167 41.6952 27.7167 42.2524 27.7167 42.8222V42.9235C27.7167 43.0122 27.7167 43.088 27.7167 43.1767C27.7167 43.7845 27.7167 44.3922 27.704 45H40.4466C42.9005 45 45 42.9005 45 40.4466V4.5788C44.9873 2.09947 42.8752 0 40.4212 0Z" fill="black"/>
+        </svg>     
+    </a>
   </div>
-
+  <div class="sun">
+    <button 
+      class="dark-mode-toggle">
+      Nacht modus
+    </button>
+  </div>
   <nav>
-    <ul>
+    <ul class="navigation">
       <li>
         <a href="/">Portfolio</a>
+      </li>
+      <li>
         <a href="/blog">Blog</a>
       </li>
     </ul>
   </nav>
-
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg class="clouds" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   viewBox="0 0 1524 248" style="enable-background:new 0 0 1524 248;" xml:space="preserve">
     <style type="text/css">
       .st0{fill-rule:evenodd;clip-rule:evenodd;fill:var(--white);}
@@ -68,15 +81,81 @@
 </header>
 
 <style>
-  .hero {
+  header {
     background-color: var(--blue);
-    background-image: url("/background.jpg");
+    background-image: url("/images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 20em;
   }
 
-  svg {
+  .socials {
+    margin-top: 1.5rem;
+    margin-right: 39rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .linkedin {
+    content: url('/images/linkedin.svg');
+  }
+
+  .linkedin:hover {
+    content: url('/images/linkedin-hover.svg');
+  }
+
+  .github {
+    content: url('/images/github.svg');
+  }
+
+  .github:hover {
+    content: url('/images/github-hover.svg');
+  }
+
+  .logo {
+    margin-right: 1rem;
+  }
+
+  nav {
+    margin-top: 2rem;
+    margin-left: 22rem;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  nav a {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  nav li::after {
+    content: "";
+    height: 3px;
+    background-color: black;
+    bottom: 0;
+    display: block;
+    border-radius: 2.5em;
+    transition: transform .5s;
+    transform: scaleX(.5);
+  }
+
+  nav li:hover::after {
+    transform: scaleX(1);
+  }
+
+  .clouds {
     position: absolute;
   }
 
@@ -98,12 +177,12 @@
   }
 
   @keyframes slide-in {
-  0% {
-    transform: translateX(-27.25em);
-  }
-  100% {
-    transform: translateX(69em);
-  }
+    0% {
+      transform: translateX(-27.25em);
+    }
+    100% {
+      transform: translateX(69em);
+    }
   }
 
   #cloud-one,
@@ -141,6 +220,47 @@
   }
 
   .hero__title {
-    padding-top: 5em;
+    margin-top: 11rem;
+    position: absolute;
+  }
+
+  .sun {
+    padding: 1em 2em 2em 2em;
+    background-color: var(--orange);
+    width: max-content;
+    height: min-content;
+    border-radius: 0 0 5em 5em;
+    z-index: 2;
+    position: absolute;
+  }
+
+  .dark-mode-toggle {
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: 700;
+    background-image: url('/images/cloud.svg');
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    animation: wobble-reverse 9s linear infinite;
+    cursor: pointer;
+  }
+
+  @keyframes wobble-reverse {
+    0% {
+      transform: translateX(.5em);
+    }
+    50% {
+      transform: translateX(-.5em);
+    }
+    100% {
+      transform: translateX(.6em);
+    }
+  }
+
+  .dark-mode-toggle:hover {
+    color: var(--white);
+    background-image: url('/images/night-cloud.svg');
   }
 </style>

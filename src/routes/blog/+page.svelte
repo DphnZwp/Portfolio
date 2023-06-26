@@ -11,13 +11,12 @@
 
 <main>
   <div class="posts">
-    {#each data.posts as { highlightImage, title, intro }}
+    {#each data.posts as { title, intro }}
       <article class="post">
-        <img class="post__image" src={highlightImage.url} alt="">
-          <h2 class="post__header">{title}</h2>
-          <p class="post__paragraph">{intro}</p>
-          <!-- <p class="post__paragraph">{@html content.html}</p> -->
-          <a class="post__link" href="/">Lees meer over {title} »</a>
+        <h2 class="post__header">{title}</h2>
+        <p class="post__paragraph">{intro}</p>
+        <!-- <p class="post__paragraph">{@html content.html}</p> -->
+        <a class="post__link" href="#">Lees meer over {title} »</a>
       </article>
     {/each}
     </div>
@@ -27,6 +26,7 @@
   .posts {
     padding-top: 2em;
     padding-right: 2em;
+    padding-bottom: 2em;
     padding-left: 2em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -37,13 +37,6 @@
     padding: 2em;
     background-color: var(--blue);
     border-radius: 1em;
-  }
-
-  .post__image{
-    margin-bottom: 1em;
-    width: 100%;
-    height: 10em;
-    object-fit: cover;
   }
 
   .post__header {
@@ -76,7 +69,7 @@
     bottom: 0;
     left: 0;
     transform : scaleX(1);
-    transition: transform 1s;
+    transition: transform .5s;
   }
 
   .post__link:hover::after {

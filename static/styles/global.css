@@ -24,7 +24,7 @@ p {
 
 h1 {
   font-family: 'Akaya Telivigala', cursive;
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -34,59 +34,11 @@ h2 {
 }
 
 p {
-  font-family: 'Cabin', sans-serif;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.sun {
-  padding: 1em 2em 2em 2em;
-  background-color: var(--orange);
-  width: max-content;
-  border-radius: 0 0 5em 5em;
-  position: absolute;
-  z-index: 1;
-}
-
-.dark-mode-toggle {
-  padding: 1em;
-  font-family: 'Cabin', sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  background-image: url('/cloud.png');
-  background-size: contain;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  animation: wobble-reverse 9s linear infinite;
-  cursor: pointer;
-}
-
-@keyframes wobble-reverse {
-  0% {
-    transform: translateX(.5em);
-  }
-  50% {
-    transform: translateX(-.5em);
-  }
-  100% {
-    transform: translateX(.6em);
-  }
-}
-
-.dark-mode-toggle:hover {
-  color: var(--white);
-  background-image: url('/night-cloud.png');
-}
-
 ul {
-  display: flex;
-  gap: 1em;
   list-style: none;
 }
