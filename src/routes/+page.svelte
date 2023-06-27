@@ -48,8 +48,8 @@
 					<span>Greensock</span>
 				</div>
 				<p>Ik heb voor drie concepten verschillende animaties met Greensock en javascript gemaakt.</p>
-				<a class="live" href="https://your-tribe-for-life-profile-card-zeta.vercel.app/" target="_blank">Live link »</a>
-				<a href="https://github.com/DphnZwp/your-tribe-for-life-profile-card" target="_blank">Github link »</a>
+				<a class="live" href="https://back-to-static-creative-coding-six.vercel.app/" target="_blank">Live link »</a>
+				<a href="https://github.com/DphnZwp/back-to-static-creative-coding" target="_blank">Github link »</a>
 			</article>
 			<article>
 				<h3>Zelftest website</h3>
