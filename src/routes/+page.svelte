@@ -147,7 +147,7 @@
 
 	h3 {
 		font-family: 'Akaya Telivigala', cursive;
-		font-size: 2rem;
+		font-size: 2.125rem;
 	}
 
 	main {

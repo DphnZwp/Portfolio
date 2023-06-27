@@ -30,6 +30,10 @@
     text-align: center;
   }
 
+  h2 {
+    font-size: 2.125rem;
+  }
+
   .posts {
     padding-top: 2rem;
     padding-right: 2em;
