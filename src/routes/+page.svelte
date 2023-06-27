@@ -193,7 +193,7 @@
   }
 
   article a:hover::after {
-    transform: scaleX(.5);
+    transform: scaleX(.8);
   }
 
 	article p {

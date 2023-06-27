@@ -73,7 +73,7 @@ footer a {
 }
 
 .contact a:hover::after {
-  transform: scaleX(.5);
+  transform: scaleX(.8);
 }
 
 @media (min-width: 70em) {
