@@ -6,14 +6,16 @@
 }
 
 :root {
-	--clr-light-purple: #5f4e80;
-	--clr-purple: #4B3D64;
-	--clr-blue: #E2EFF3;
-	--clr-black: #000;
-	--clr-white: #fff;
+	--clr-text: #000;
+	--clr-text-secondary: #fff;
+	--clr-background: #E2EFF3;
+	--clr-background-secondary: #fbcb95;
+	--clr-cloud: #fff;
+	--clr-cloud-secondary: #000;
 }
 
 body {
+	color: var(--clr-text);
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -26,10 +28,13 @@ p {
 }
 
 h1 {
+	font-family: 'Akaya Telivigala', cursive;
 	font-weight: 700;
+	line-height: 1;
 }
 
 h2 {
+	font-family: 'Akaya Telivigala', cursive;
 	font-size: 3.125rem;
 }
 
@@ -42,30 +47,6 @@ a {
 	font-weight: 500;
 }
 
-.btn-primary {
-	padding: .75em 1.75em;
-	color: var(--clr-white);
-	background-color: var(--clr-purple);
-	border-radius: .5rem;
-	width: max-content;
-	text-decoration: none;
-}
-
-.btn-primary:hover {
-	color: var(--clr-white);
-	background-color: var(--clr-light-purple);
-}
-
-.btn-primary {
-	padding: .75em 1.75em;
-	color: var(--clr-white);
-	background-color: var(--clr-purple);
-	border-radius: .5rem;
-	width: max-content;
-	text-decoration: none;
-}
-
-.btn-primary:hover {
-	color: var(--clr-white);
-	background-color: var(--clr-light-purple);
+ul {
+	list-style: none;
 }

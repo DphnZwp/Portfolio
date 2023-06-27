@@ -135,13 +135,13 @@
 	}
 
 	a {
-		color: var(--black);
+		color: var(--clr-text);
 	}
 
 	article {
 		padding: 2em;
 		text-align: left;
-		background-color: var(--blue);
+		background-color: var(--clr-background);
 		border-radius: 1em;
 	}
 
@@ -163,8 +163,8 @@
 
 	span {
 		padding: .5rem .75rem;
-		color: var(--white);
-		background-color: var(--black);
+		color: var(--clr-text-secondary);
+		background-color: var(--clr-text);
 		display: block;
 		width: max-content;
 		border-radius: .5rem;
@@ -172,7 +172,7 @@
 
 	article a {
 		margin-top: .5rem;
-    color: var(--black);
+    color: var(--clr-text);
     text-decoration: none;
     font-weight: 700;
 		position: relative;
@@ -184,7 +184,7 @@
     position : absolute;
     width : 100%;
     height : 3px;
-    background-color: var(--black);
+    background-color: var(--clr-text);
     border-radius: 2.5em;
     bottom: 0;
     left: 0;

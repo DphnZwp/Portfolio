@@ -26,6 +26,7 @@
 <style>
   h1 {
     margin-top: -6rem;
+    font-size: 5rem;
     text-align: center;
   }
 
@@ -41,7 +42,7 @@
 
   .post {
     padding: 2em;
-    background-color: var(--blue);
+    background-color: var(--clr-background);
     border-radius: 1em;
   }
 
@@ -59,7 +60,7 @@
 
   .post__link {
     padding: .25em;
-    color: var(--black);
+    color: var(--clr-text);
     font-weight: 700;
     text-decoration: none;
     position : relative;
@@ -70,7 +71,7 @@
     position : absolute;
     width : 100%;
     height : 3px;
-    background-color: var(--black);
+    background-color: var(--clr-text);
     border-radius: 2.5em;
     bottom: 0;
     left: 0;

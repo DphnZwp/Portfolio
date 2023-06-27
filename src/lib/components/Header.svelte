@@ -1,3 +1,7 @@
+<script>
+  // const darkModeToggle = document.querySelector('.dark-mode-toggle')
+</script>
+
 <header>
   <div class="cloud">
     <button 
@@ -23,8 +27,8 @@
   <svg class="clouds" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   viewBox="0 0 1524 248" style="enable-background:new 0 0 1524 248;" xml:space="preserve">
     <style type="text/css">
-      .st0{fill-rule:evenodd;clip-rule:evenodd;fill:var(--white);}
-      .st1{fill:var(--white);}
+      .st0{fill-rule:evenodd;clip-rule:evenodd;fill:var(--clr-cloud);}
+      .st1{fill:var(--clr-cloud);}
     </style>
     <g id="cloud-one">
       <path class="st0" d="M14.2,95L14.2,95c-7.8,6.9-2.5,24.9,6.3,32c8.6,7,17.4,6.7,25.2,6.4c0.4,0,0.9,0,1.3,0c9-0.3,12.3-0.9,15-1.4
@@ -71,14 +75,14 @@
 
 <style>
   header {
-    background-color: var(--blue);
+    background-color: var(--clr-background);
     background-image: url("/images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    height: 25em;
+    height: 26em;
   }
 
   .cloud {
@@ -106,7 +110,7 @@
   }
 
   nav a {
-    color: var(--black);
+    color: var(--clr-text);
     text-decoration: none;
     font-weight: 700;
   }
@@ -114,7 +118,7 @@
   nav li::after {
     content: "";
     height: 3px;
-    background-color: black;
+    background-color: var(--clr-text);
     bottom: 0;
     display: block;
     border-radius: 2.5em;
@@ -192,7 +196,7 @@
 
   .sun {
     padding: 1em 2em 3em 2em;
-    background-color: var(--orange);
+    background-color: var(--clr-background-secondary);
     width: max-content;
     height: min-content;
     border-radius: 0 0 20em 20em;
@@ -229,7 +233,7 @@
   }
 
   .dark-mode-toggle:hover {
-    color: var(--white);
+    color: var(--clr-text-secondary);
     background-image: url('/images/night-cloud.svg');
   }
 </style>

@@ -17,7 +17,7 @@
 <style>
 footer {
   padding: 2rem;
-  background-color: var(--orange);
+  background-color: var(--clr-background-secondary);
   display: flex;
   justify-content: space-between;
   bottom: 0;
@@ -56,7 +56,7 @@ footer {
 }
 
 footer a {
-  color: var(--black);
+  color: var(--clr-text);
   text-decoration: none;
   font-weight: 700;
 }
@@ -64,7 +64,7 @@ footer a {
 .contact a::after {
   content: "";
   height: 3px;
-  background-color: black;
+  background-color: var(--clr-text);
   bottom: 0;
   display: block;
   border-radius: 2.5em;
