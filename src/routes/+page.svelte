@@ -5,10 +5,10 @@
 <Header />
 
 <main>
-	<div class="hero">
+	<section class="portfolio">
 		<h1>Een Frontend Developer en designer met een creatief denkbeeld</h1>
 		<p>Mensen herkennen vaak mijn websites door mijn iconen, illustraties en mijn creatieve ideeen.</p>
-	</div>
+	</section>
 
 	<section id="projects">
 		<h2>Projecten</h2>
@@ -98,7 +98,7 @@
 		max-width: 52rem;
 	}
 
-	.hero {
+	.portfolio {
 		margin-top: -10rem;
 		text-align: center;
 		display: flex;
@@ -106,7 +106,7 @@
 		align-items: center;
 	}
 
- 	.hero p {
+ 	.portfolio p {
 		margin-right: 1rem;
 		margin-top: 1rem;
 		margin-left: 1rem;
@@ -209,7 +209,7 @@
 			font-size: 5rem;
 		}
 
-		.hero {
+		.portfolio {
 			margin-top: -6rem;
 		}
 

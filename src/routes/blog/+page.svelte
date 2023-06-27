@@ -9,7 +9,10 @@
 </Header>
 
 <main>
-  <h1 class="hero__title">Blog</h1>
+  <section class="blog">
+    <h1 class="hero__title">Blog</h1>
+    <p></p>
+  </section>
 
   <div class="posts">
     {#each data.posts as { title, intro }}
@@ -32,6 +35,10 @@
 
   h2 {
     font-size: 2.125rem;
+  }
+
+  .blog {
+		margin-top: -10rem;
   }
 
   .posts {
@@ -87,16 +94,13 @@
     transform : scaleX(.8);
   }
 
-  /* .stripes {
-    margin-bottom: 1em;
-    color: white;
-    height: 10em;
-    background: repeating-linear-gradient(
-      45deg,
-      var(--orange),
-      var(--orange) 15px,
-      var(--white) 15px,
-      var(--white) 40px
-    );
-  } */
+  @media (min-width: 70em) {
+    .blog {
+			margin-top: -6rem;
+    }
+
+		h1 {
+			font-size: 5rem;
+		}
+  }
 </style>
