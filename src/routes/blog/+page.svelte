@@ -37,7 +37,7 @@
     padding-left: 2em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5em;
+    gap: 1em;
   }
 
   .post {
