@@ -8,9 +8,11 @@
     </a>
   </div>
   <div class="socials">
-    <a class="linkedin" href="/">         
+    <a class="linkedin" href="https://www.linkedin.com/in/daphne-zwuup-a85867170/" target="_blank">         
     </a>
-    <a class="github" href="/">
+    <a class="github" href="https://github.com/DphnZwp" target="_blank">
+    </a>
+    <a class="codepen" href="https://codepen.io/DphnZwp" target="_blank">
     </a>
   </div>
 </footer>
@@ -20,6 +22,7 @@ footer {
   background-color: var(--clr-background-secondary);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   bottom: 0;
   width: 100%;
   position: fixed;
@@ -53,6 +56,14 @@ footer {
 
 .github:hover {
   content: url('/images/github-hover.svg');
+}
+
+.codepen {
+  content: url('/images/codepen.svg');
+}
+
+.codepen:hover {
+  content: url('/images/codepen-hover.svg');
 }
 
 footer a {
