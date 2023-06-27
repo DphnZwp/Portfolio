@@ -1,11 +1,14 @@
 <script>
-  // const darkModeToggle = document.querySelector('.dark-mode-toggle')
+  function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle('darkmode');
+  }
 </script>
 
 <header>
   <div class="cloud">
     <button 
-      class="dark-mode-toggle">
+      class="dark-mode-toggle" on:click={toggleDarkMode}>
       Nacht modus
     </button>
   </div>
@@ -76,7 +79,7 @@
 <style>
   header {
     background-color: var(--clr-background);
-    background-image: url("/images/background.jpg");
+    background-image: var(--background-image);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +113,7 @@
   }
 
   nav a {
-    color: var(--clr-text);
+    color: #000;
     text-decoration: none;
     font-weight: 700;
   }
@@ -118,7 +121,7 @@
   nav li::after {
     content: "";
     height: 3px;
-    background-color: var(--clr-text);
+    background-color: #000;
     bottom: 0;
     display: block;
     border-radius: 2.5em;
@@ -209,15 +212,21 @@
 
   .dark-mode-toggle {
     padding: 1em;
+    color: var(--clr-text);
     font-size: 1rem;
     font-weight: 700;
-    background-image: url('/images/cloud.svg');
+    background-image: var(--cloud-image);
     background-size: contain;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
     animation: wobble-reverse 9s linear infinite;
     cursor: pointer;
+  }
+
+  .dark-mode-toggle:hover {
+    color: var(--clr-text-secondary);
+    background-image: var(--cloud-image-secondary);
   }
 
   @keyframes wobble-reverse {
@@ -230,10 +239,5 @@
     100% {
       transform: translateX(.6em);
     }
-  }
-
-  .dark-mode-toggle:hover {
-    color: var(--clr-text-secondary);
-    background-image: url('/images/night-cloud.svg');
   }
 </style>

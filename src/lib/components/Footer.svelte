@@ -56,7 +56,7 @@ footer {
 }
 
 footer a {
-  color: var(--clr-text);
+  color: #000;
   text-decoration: none;
   font-weight: 700;
 }
@@ -64,7 +64,7 @@ footer a {
 .contact a::after {
   content: "";
   height: 3px;
-  background-color: var(--clr-text);
+  background-color: #000;
   bottom: 0;
   display: block;
   border-radius: 2.5em;

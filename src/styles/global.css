@@ -12,11 +12,26 @@
 	--clr-background-secondary: #fbcb95;
 	--clr-cloud: #fff;
 	--clr-cloud-secondary: #000;
+	--background-image: url(/images/background.jpg);
+	--cloud-image: url(/images/cloud.svg);
+	--cloud-image-secondary: url(/images/night-cloud.svg);
+}
+
+.darkmode {
+	--clr-text: #fff;
+	--clr-text-secondary: #000;
+	--clr-background: #000609;
+	--clr-background-secondary: #FFE37A;
+	--clr-cloud: #111A23;
+	--clr-cloud-secondary: #fff;
+	--background-image: url(/images/background-dark.jpg);
+	--cloud-image: url(/images/night-cloud.svg);
+	--cloud-image-secondary: url(/images/cloud.svg);
 }
 
 body {
-	color: var(--clr-text);
 	font-family: 'Open Sans', sans-serif;
+	background-color: var(--clr-cloud);
 }
 
 h1,
@@ -28,17 +43,24 @@ p {
 }
 
 h1 {
+	color: var(--clr-text);
 	font-family: 'Akaya Telivigala', cursive;
 	font-weight: 700;
 	line-height: 1;
 }
 
 h2 {
+	color: var(--clr-text);
 	font-family: 'Akaya Telivigala', cursive;
 	font-size: 3.125rem;
 }
 
+h3 {
+	color: var(--clr-text);
+}
+
 p {
+	color: var(--clr-text);
 	font-size: 1.1875rem;
 }
 
