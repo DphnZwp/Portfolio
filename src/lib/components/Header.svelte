@@ -1,7 +1,9 @@
 <script>
+  let isOn = false;
   function toggleDarkMode() {
     const body = document.body;
     body.classList.toggle('darkmode');
+    isOn = !isOn;
   }
 </script>
 
@@ -9,7 +11,7 @@
   <div class="cloud">
     <button 
       class="dark-mode-toggle" on:click={toggleDarkMode}>
-      Nacht modus
+      {isOn ? 'Dag' : 'Nacht'} modus
     </button>
   </div>
   <div class="sun">
