@@ -43,6 +43,8 @@ footer {
 }
 
 .linkedin {
+  width: 35px;
+  height: 35px;
   content: url('/images/linkedin.svg');
 }
 
@@ -51,6 +53,8 @@ footer {
 }
 
 .github {
+  width: 35px;
+  height: 35px;
   content: url('/images/github.svg');
 }
 
@@ -59,6 +63,8 @@ footer {
 }
 
 .codepen {
+  width: 35px;
+  height: 35px;
   content: url('/images/codepen.svg');
 }
 
