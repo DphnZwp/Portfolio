@@ -23,7 +23,7 @@
 					<span>Django</span>
 				</div>
 				<p>Ik heb de frontend gemaakt van de app van de Coding the Curbs. Valentino (de backender van CTC) heeft de backend van de app gemaakt. Ik heb ook het concept ontwerp van de app gemaakt.</p>
-				<a class="live" href="https://app.www.codingthecurbs.nl/" target="_blank">Live link »</a>
+				<a class="live" href="https://app.codingthecurbs.nl/" target="_blank">Live link »</a>
 			</article>
 			<article>
 				<h3>Visitekaartje</h3>
