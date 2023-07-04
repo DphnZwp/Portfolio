@@ -76,17 +76,16 @@
 				<a href="https://github.com/DphnZwp/vip-it" target="_blank">Github link »</a>
 			</article>
 			<article>
-				<h3>Writer Mind</h3>
+				<h3>FDND Quizzen</h3>
 				<div class="characteristics">
 					<span>HTML5</span>
 					<span>CSS3</span>
-					<span>JavaScript</span>
-					<span>Sveltekit</span>
-					<span>Hygraph</span>
+					<span>React</span>
+					<span>Typescript</span>
 				</div>
-				<p>Mijn idee was om een website tegen uitstelgedrag en writer’s block te maken. In deze website heb ik mezelf vooral gericht op rich text en minder op andere functies van de websites.</p>
-				<a class="live" href="https://lets-jam-webapplicatie-eight.vercel.app/" target="_blank">Live link »</a>
-				<a href="https://github.com/DphnZwp/lets-jam-webapplicatie" target="_blank">Github link »</a>
+				<p>Een Quiz ontwerpen en maken, een nieuwe Kahoot voor FDND waarmee het makkelijker is om een quiz te maken en te spelen.</p>
+				<a class="live" href="https://fdnd-quizzen.netlify.app/" target="_blank">Live link »</a>
+				<a href="https://github.com/DphnZwp/fdnd-quiz-react" target="_blank">Github link »</a>
 			</article>
 		</div>
 	</section>
