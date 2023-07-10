@@ -215,6 +215,7 @@
   .dark-mode-toggle {
     padding: 1em;
     color: var(--clr-text);
+    font-family: 'Cabin', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     background-image: var(--cloud-image);
