@@ -15,17 +15,6 @@
 		<p>Hier zijn een paar projecten die ik heb gemaakt. Bekijk al mijn projecten in <a target="_blank" href="https://github.com/DphnZwp?tab=repositories">Github</a>.</p>
 		<div class="project">
 			<article>
-				<h3>Frontend Coding the Curbs</h3>
-				<div class="characteristics">
-					<span>HTML5</span>
-					<span>CSS3</span>
-					<span>JavaScript</span>
-					<span>Django</span>
-				</div>
-				<p>Ik heb de frontend gemaakt van de app van de Coding the Curbs. Valentino (de backender van CTC) heeft de backend van de app gemaakt. Ik heb ook het concept ontwerp van de app gemaakt.</p>
-				<a class="live" href="https://app.codingthecurbs.nl/" target="_blank">Live link »</a>
-			</article>
-			<article>
 				<h3>Visitekaartje</h3>
 				<div class="characteristics">
 					<span>HTML5</span>
@@ -50,6 +39,17 @@
 				<p>Ik heb voor drie concepten verschillende animaties met Greensock en javascript gemaakt.</p>
 				<a class="live" href="https://back-to-static-creative-coding-six.vercel.app/" target="_blank">Live link »</a>
 				<a href="https://github.com/DphnZwp/back-to-static-creative-coding" target="_blank">Github link »</a>
+			</article>
+			<article>
+				<h3>Frontend Coding the Curbs</h3>
+				<div class="characteristics">
+					<span>HTML5</span>
+					<span>CSS3</span>
+					<span>JavaScript</span>
+					<span>Django</span>
+				</div>
+				<p>Ik heb de frontend gemaakt van de app van de Coding the Curbs. Valentino (de backender van CTC) heeft de backend van de app gemaakt. Ik heb ook het concept ontwerp van de app gemaakt.</p>
+				<a class="live" href="https://app.codingthecurbs.nl/" target="_blank">Live link »</a>
 			</article>
 			<article>
 				<h3>Zelftest website</h3>
