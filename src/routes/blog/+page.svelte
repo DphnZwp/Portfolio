@@ -20,7 +20,7 @@
         <h2 class="post__header">{title}</h2>
         <p class="post__paragraph">{intro}</p>
         <!-- <p class="post__paragraph">{@html content.html}</p> -->
-        <a class="post__link" href="/detail">Lees meer over {title} »</a>
+        <a class="post__link" href="/detail">Lees meer »</a>
       </article>
     {/each}
     </div>
