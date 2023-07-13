@@ -23,14 +23,26 @@
 	}
 
 	.post {
-		padding-right: 25rem;
-		padding-left: 25rem;
+		padding-right: 2rem;
+		padding-left: 2rem;
 		padding-bottom: 2rem;
 	}
 
 	.content {
-		padding-right: 25rem;
-		padding-left: 25rem;
+		padding-right: 2rem;
+		padding-left: 2rem;
 		padding-bottom: 10rem;
+	}
+
+  @media (min-width: 70em) {
+		.post {
+			padding-right: 25rem;
+			padding-left: 25rem;
+		}
+
+		.content {
+			padding-right: 25rem;
+			padding-left: 25rem;
+		}
 	}
 </style>
