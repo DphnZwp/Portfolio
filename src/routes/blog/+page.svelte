@@ -1,26 +1,31 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
 	export let data;
-
+  let posts = data.posts
   console.log(data.posts);
 </script>
 
-<Header>
-</Header>
+<Header />
 
 <main>
   <section class="blog">
-    <h1 class="hero__title">Blog</h1>
+    <h1>Blog</h1>
     <p></p>
   </section>
 
   <div class="posts">
-    {#each data.posts as { title, intro }}
+    {#each posts as { title, intro, slug }}
       <article class="post">
-        <h2 class="post__header">{title}</h2>
+        <a class="post__link" href="/{slug}">
+          <h2 class="post__header">{title}</h2>
+        </a>
         <p class="post__paragraph">{intro}</p>
-        <!-- <p class="post__paragraph">{@html content.html}</p> -->
-        <a class="post__link" href="/detail">Lees meer »</a>
+        <a class="post__link" href="/{slug}">
+          Lees meer
+          <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.25 1.5L16.75 9L9.25 16.5M2.25 1.5L9.75 9L2.25 16.5" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
       </article>
     {/each}
     </div>
@@ -28,8 +33,7 @@
 
 <style>
   h1 {
-    margin-top: -6rem;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
   }
 
@@ -37,8 +41,12 @@
     font-size: 2.125rem;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .blog {
-		margin-top: -10rem;
+    margin-top: -10rem;
   }
 
   .posts {
@@ -47,7 +55,7 @@
     padding-bottom: 10em;
     padding-left: 2em;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 1em;
   }
 
@@ -70,37 +78,47 @@
   }
 
   .post__link {
-    padding: .25em;
     color: var(--clr-text);
     font-weight: 700;
     text-decoration: none;
     position : relative;
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
   }
 
-  .post__link::after {
+  .post__link svg path {
+    stroke: var(--clr-text);
+  }
+
+  .post__link:last-of-type::after {
     content : "";
     position : absolute;
     width : 100%;
     height : 3px;
     background-color: var(--clr-text);
     border-radius: 2.5em;
-    bottom: 0;
+    bottom: -.25rem;
     left: 0;
     transform : scaleX(1);
     transition: transform .5s;
   }
 
-  .post__link:hover::after {
+  .post__link:last-of-type:hover::after {
     transform : scaleX(.8);
   }
 
   @media (min-width: 70em) {
+    h1 {
+			font-size: 5rem;
+		}
+    
     .blog {
 			margin-top: -6rem;
     }
 
-		h1 {
-			font-size: 5rem;
-		}
+    .posts {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 </style>
