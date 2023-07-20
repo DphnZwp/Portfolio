@@ -8,8 +8,12 @@ export async function load() {
 	const query = gql`
   query Posts {
     posts {
-      intro
+      createdAt
+      createdBy {
+        createdAt
+      }
       title
+      intro
       slug
     }
   }
