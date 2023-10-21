@@ -46,8 +46,8 @@
 	h1 {
 		text-align: center;
 		width: 100%;
-		top: 15rem;
 		z-index: 1;
+    	position: relative;
 	}
 
 	.post {
@@ -70,6 +70,7 @@
   @media (min-width: 70em) {
 		h1 {
 			font-size: 11rem;
+			position: static;
 		}
 
 		.post {
