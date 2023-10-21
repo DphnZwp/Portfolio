@@ -101,7 +101,7 @@
 		text-align: center;
 		position: absolute;
 		width: 100%;
-    	top: 12rem;
+    	top: 14rem;
 	}
 
 	.portfolio {
@@ -111,16 +111,18 @@
 	.portfolio__background {
 		width: 100%;
 		position: absolute;
-		top: 19rem;
+		top: 17.25rem;
 	}
 
 	.intro {
-		margin-top: 5rem;
-    	padding-top: 4rem;
+		margin-top: 3rem;
+    	padding-top: 3rem;
 		text-align: center;
 		display: grid;
 		justify-items: center;
 		background-color: var(--clr-cloud);
+		position: relative;
+		z-index: 1;
 	}
 
 	.intro h2 {
@@ -231,6 +233,12 @@
 
 		.portfolio {
 			margin-top: -6rem;
+		}
+
+		.portfolio__background {
+			width: 100%;
+			position: absolute;
+			top: 19rem;
 		}
 
 		#projects {
