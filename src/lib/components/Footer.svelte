@@ -1,12 +1,12 @@
 <script>
-  let isCollapsed = false;
+  let isCollapsed = true;
   let footerHeight = 'auto';
   let arrowDirection = 'down';
 
   function toggleFooter() {
     isCollapsed = !isCollapsed;
     footerHeight = isCollapsed ? 'auto' : 'auto';
-    arrowDirection = isCollapsed ? 'up' : 'down';
+    arrowDirection = isCollapsed ? 'down' : 'up';
   }
 </script>
 
