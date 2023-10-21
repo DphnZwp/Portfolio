@@ -14,12 +14,13 @@
   </section>
 
   <div class="posts">
-    {#each posts as { title, intro, slug }}
+    {#each posts as { title, intro, slug, createdAt }}
       <article class="post">
         <a class="post__link" href="/{slug}">
           <h2 class="post__header">{title}</h2>
         </a>
         <p class="post__paragraph">{intro}</p>
+        <p class="post__date">Gepubliceerd op: {new Date(createdAt).toLocaleDateString('nl-NL')}</p>
         <a class="post__link" href="/{slug}">
           Lees meer
           <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,6 +76,10 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  .post__date {
+    margin-bottom: 1rem;
   }
 
   .post__link {

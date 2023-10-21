@@ -5,7 +5,7 @@
 /// <reference types="@sveltejs/kit" />
 
 /**
- * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env).
+ * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
  * 
  * _Unlike_ [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), the values exported from this module are statically injected into your bundle at build time, enabling optimisations like dead code elimination.
  * 
@@ -28,6 +28,8 @@
 declare module '$env/static/private' {
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
+	export const ChocolateyInstall: string;
+	export const ChocolateyLastPathUpdate: string;
 	export const CHROME_CRASHPAD_PIPE_NAME: string;
 	export const COLOR: string;
 	export const COLORTERM: string;
@@ -37,9 +39,7 @@ declare module '$env/static/private' {
 	export const ComSpec: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const FPS_BROWSER_APP_PROFILE_STRING: string;
-	export const FPS_BROWSER_USER_PROFILE_STRING: string;
-	export const GDAL_DATA: string;
+	export const EFC_11276: string;
 	export const GIT_ASKPASS: string;
 	export const HOME: string;
 	export const HOMEDRIVE: string;
@@ -64,8 +64,6 @@ declare module '$env/static/private' {
 	export const npm_config_noproxy: string;
 	export const npm_config_prefix: string;
 	export const npm_config_resolution_mode: string;
-	export const npm_config_unsafe_perm: string;
-	export const npm_config_user: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_user_agent: string;
 	export const npm_execpath: string;
@@ -78,15 +76,10 @@ declare module '$env/static/private' {
 	export const NPM_PREFIX_NPM_CLI_JS: string;
 	export const NUMBER_OF_PROCESSORS: string;
 	export const OneDrive: string;
-	export const OneDriveCommercial: string;
-	export const OneDriveConsumer: string;
-	export const OPENSSL_CONF: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const OS: string;
-	export const Path: string;
+	export const PATH: string;
 	export const PATHEXT: string;
-	export const POSTGIS_ENABLE_OUTDB_RASTERS: string;
-	export const POSTGIS_GDAL_ENABLED_DRIVERS: string;
 	export const PROCESSOR_ARCHITECTURE: string;
 	export const PROCESSOR_IDENTIFIER: string;
 	export const PROCESSOR_LEVEL: string;
@@ -94,7 +87,6 @@ declare module '$env/static/private' {
 	export const ProgramData: string;
 	export const ProgramFiles: string;
 	export const ProgramW6432: string;
-	export const PROJ_LIB: string;
 	export const PROMPT: string;
 	export const PSModulePath: string;
 	export const PUBLIC: string;
@@ -114,6 +106,7 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const VSCODE_INJECTION: string;
+	export const VSCODE_NONCE: string;
 	export const windir: string;
 	export const __PSLockDownPolicy: string;
 }
@@ -132,7 +125,7 @@ declare module '$env/static/public' {
 }
 
 /**
- * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env).
+ * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
  * 
  * This module cannot be imported into client-side code.
  * 
@@ -147,6 +140,8 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
+		ChocolateyInstall: string;
+		ChocolateyLastPathUpdate: string;
 		CHROME_CRASHPAD_PIPE_NAME: string;
 		COLOR: string;
 		COLORTERM: string;
@@ -156,9 +151,7 @@ declare module '$env/dynamic/private' {
 		ComSpec: string;
 		DriverData: string;
 		EDITOR: string;
-		FPS_BROWSER_APP_PROFILE_STRING: string;
-		FPS_BROWSER_USER_PROFILE_STRING: string;
-		GDAL_DATA: string;
+		EFC_11276: string;
 		GIT_ASKPASS: string;
 		HOME: string;
 		HOMEDRIVE: string;
@@ -183,8 +176,6 @@ declare module '$env/dynamic/private' {
 		npm_config_noproxy: string;
 		npm_config_prefix: string;
 		npm_config_resolution_mode: string;
-		npm_config_unsafe_perm: string;
-		npm_config_user: string;
 		npm_config_userconfig: string;
 		npm_config_user_agent: string;
 		npm_execpath: string;
@@ -197,15 +188,10 @@ declare module '$env/dynamic/private' {
 		NPM_PREFIX_NPM_CLI_JS: string;
 		NUMBER_OF_PROCESSORS: string;
 		OneDrive: string;
-		OneDriveCommercial: string;
-		OneDriveConsumer: string;
-		OPENSSL_CONF: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		OS: string;
-		Path: string;
+		PATH: string;
 		PATHEXT: string;
-		POSTGIS_ENABLE_OUTDB_RASTERS: string;
-		POSTGIS_GDAL_ENABLED_DRIVERS: string;
 		PROCESSOR_ARCHITECTURE: string;
 		PROCESSOR_IDENTIFIER: string;
 		PROCESSOR_LEVEL: string;
@@ -213,7 +199,6 @@ declare module '$env/dynamic/private' {
 		ProgramData: string;
 		ProgramFiles: string;
 		ProgramW6432: string;
-		PROJ_LIB: string;
 		PROMPT: string;
 		PSModulePath: string;
 		PUBLIC: string;
@@ -233,10 +218,11 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_ASKPASS_NODE: string;
 		VSCODE_GIT_IPC_HANDLE: string;
 		VSCODE_INJECTION: string;
+		VSCODE_NONCE: string;
 		windir: string;
 		__PSLockDownPolicy: string;
 		[key: `PUBLIC_${string}`]: undefined;
-		[key: string]: string | undefined;
+		[key: `${string}`]: string | undefined;
 	}
 }
 

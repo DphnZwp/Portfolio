@@ -144,11 +144,11 @@
   }
 
   @keyframes slide-fast {
-  0% {
-    transform: translateX(-20em);
-  }
-  100% {
-    transform: translateX(10em);
+    0% {
+      transform: translateX(-20em);
+    }
+    100% {
+      transform: translateX(10em);
   }
   }
 
