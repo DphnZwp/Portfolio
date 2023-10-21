@@ -5,7 +5,7 @@
 
   function toggleFooter() {
     isCollapsed = !isCollapsed;
-    footerHeight = isCollapsed ? '0' : 'auto';
+    footerHeight = isCollapsed ? 'auto' : 'auto';
     arrowDirection = isCollapsed ? 'up' : 'down';
   }
 </script>
@@ -13,6 +13,7 @@
 <footer style="height: {footerHeight}">
   <div class="footer-button">
     <button on:click={toggleFooter}>
+      Contact gegevens
       <img src={`/images/${arrowDirection}-arrow.svg`} alt={`${arrowDirection} arrow`} />
     </button>
   </div>
@@ -38,11 +39,21 @@
 
 <style>
 footer {
-  padding: 1rem 2rem;
+  padding: .75rem  2rem;
   background-color: var(--clr-background-secondary);
   bottom: 0;
   width: 100%;
   position: fixed;
+}
+
+.footer-button button {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-button img {
+  margin-left: .5rem;
 }
 
 .content {
@@ -122,8 +133,6 @@ footer a {
 }
 
 button {
-  margin-top: -.5rem;
-  position: fixed;
   background: none;
   border: none;
   cursor: pointer;

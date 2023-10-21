@@ -9,6 +9,7 @@
 <main>
 	<section class="post">
 		<h1>{post.title}</h1>
+		<img class="post__background" src="/images/background.jpg" alt="">
 	</section>
 
 	<section class="content">
@@ -18,14 +19,20 @@
 
 <style>
 	h1 {
-		font-size: 5rem;
 		text-align: center;
+		width: 100%;
+		top: 15rem;
+		z-index: 1;
 	}
 
 	.post {
-		padding-right: 2rem;
-		padding-left: 2rem;
-		padding-bottom: 2rem;
+		margin-top: -10rem;
+	}
+
+	.post__background {
+		width: 100%;
+		position: absolute;
+		top: 20rem;
 	}
 
 	.content {
@@ -35,9 +42,13 @@
 	}
 
   @media (min-width: 70em) {
+		h1 {
+			font-size: 11rem;
+		}
+
 		.post {
-			padding-right: 25rem;
-			padding-left: 25rem;
+			margin-top: -12rem;
+    		margin-bottom: 4rem;
 		}
 
 		.content {

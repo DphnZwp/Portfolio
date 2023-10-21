@@ -11,6 +11,7 @@
   <section class="blog">
     <h1>Blog</h1>
     <p></p>
+    <img class="blog__background" src="/images/background.jpg" alt="">
   </section>
 
   <div class="posts">
@@ -34,8 +35,10 @@
 
 <style>
   h1 {
-    font-size: 4rem;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 13.5rem;
   }
 
   h2 {
@@ -50,11 +53,19 @@
     margin-top: -10rem;
   }
 
+  .blog__background {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    bottom: -4px;
+  }
+
   .posts {
     padding-top: 2rem;
     padding-right: 2em;
     padding-bottom: 10em;
     padding-left: 2em;
+    background-color: var(--clr-cloud);
     display: grid;
     grid-template-columns: 1fr;
     gap: 1em;
@@ -115,7 +126,7 @@
 
   @media (min-width: 70em) {
     h1 {
-			font-size: 5rem;
+      font-size: 11rem;
 		}
     
     .blog {

@@ -6,7 +6,12 @@
 
 <main>
 	<section class="portfolio">
-		<h1>Een Frontend Developer en designer met een creatief denkbeeld</h1>
+		<h1>Portfolio</h1>
+		<img class="portfolio__background" src="/images/background.jpg" alt="">
+	</section>
+
+	<section class="intro">
+		<h2>Een Frontend Developer en designer met een creatief denkbeeld</h2>
 		<p>Mensen herkennen vaak mijn websites door mijn iconen, illustraties en mijn creatieve ideeen.</p>
 	</section>
 
@@ -93,25 +98,41 @@
 
 <style>
 	h1 {
-		font-size: 4rem;
-		max-width: 52rem;
+		text-align: center;
+		position: absolute;
+		width: 100%;
+    	top: 12rem;
 	}
 
 	.portfolio {
 		margin-top: -10rem;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 	}
 
- 	.portfolio p {
-		margin-right: 1rem;
-		margin-top: 1rem;
-		margin-left: 1rem;
-		font-size: 1.25rem;
+	.portfolio__background {
+		width: 100%;
+		position: absolute;
+		top: 19rem;
+	}
+
+	.intro {
+		margin-top: 5rem;
+    	padding-top: 4rem;
+		text-align: center;
+		display: grid;
+		justify-items: center;
+		background-color: var(--clr-cloud);
+	}
+
+	.intro h2 {
+		margin-bottom: .75rem;
+		line-height: .9;
+		max-width: 42rem;
+	}
+
+ 	.intro p {
+		font-size: 1.5rem;
 		font-weight: 600;
-		max-width: 30rem;
+		max-width: 32rem;
 	}
 
 	#projects {
@@ -205,7 +226,7 @@
 
 	@media (min-width: 70em) {
 		h1 {
-			font-size: 5rem;
+			font-size: 11rem;
 		}
 
 		.portfolio {

@@ -80,10 +80,7 @@
 
 <style>
   header {
-    background-color: var(--clr-background);
-    background-image: var(--background-image);
-    background-size: cover;
-    background-position: center;
+    background-color: var(--clr-sky);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;

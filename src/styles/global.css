@@ -10,6 +10,7 @@
 :root {
 	--clr-text: #000;
 	--clr-text-secondary: #fff;
+	--clr-sky: #E2EFF3;
 	--clr-background: #E2EFF3;
 	--clr-background-secondary: #fbcb95;
 	--clr-cloud: #fff;
@@ -22,6 +23,7 @@
 .darkmode {
 	--clr-text: #fff;
 	--clr-text-secondary: #000;
+	--clr-sky: #002f45;
 	--clr-background: #000609;
 	--clr-background-secondary: #FFE37A;
 	--clr-cloud: #111A23;
@@ -39,6 +41,7 @@ body {
 
 h1 {
 	font-family: 'Akaya Telivigala', cursive;
+    font-size: 5rem;
 	font-weight: 700;
 	line-height: 1;
 }
