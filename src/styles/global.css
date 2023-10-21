@@ -15,7 +15,7 @@
 	--clr-background-secondary: #fbcb95;
 	--clr-cloud: #fff;
 	--clr-cloud-secondary: #000;
-	--background-image: url(/images/background.jpg);
+	--background-image: url(/images/background.svg);
 	--cloud-image: url(/images/cloud.svg);
 	--cloud-image-secondary: url(/images/night-cloud.svg);
 }
@@ -28,7 +28,7 @@
 	--clr-background-secondary: #FFE37A;
 	--clr-cloud: #111A23;
 	--clr-cloud-secondary: #fff;
-	--background-image: url(/images/background-dark.jpg);
+	--background-image: url(/images/background-dark.svg);
 	--cloud-image: url(/images/night-cloud.svg);
 	--cloud-image-secondary: url(/images/cloud.svg);
 }
