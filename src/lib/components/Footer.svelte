@@ -50,6 +50,7 @@ footer {
   font-family: 'Akaya Telivigala', cursive;
   font-size: 2rem;
   font-weight: 700;
+  width: 100%;
 }
 
 .footer-button img {
