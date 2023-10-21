@@ -98,6 +98,7 @@
     grid-template-columns: 1fr;
     gap: 1em;
     position: relative;
+    z-index: 1;
   }
 
   .post {
