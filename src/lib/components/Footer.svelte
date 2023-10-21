@@ -12,7 +12,7 @@
 
 <footer style="height: {footerHeight}">
   <div class="footer-button">
-    <button on:click={toggleFooter}>
+    <button title="Klik mij" on:click={toggleFooter}>
       Contact gegevens
       <img src={`/images/${arrowDirection}-arrow.svg`} alt={`${arrowDirection} arrow`} />
     </button>
@@ -44,6 +44,7 @@ footer {
   bottom: 0;
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .footer-button button {
