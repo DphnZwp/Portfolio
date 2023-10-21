@@ -52,6 +52,7 @@
 
 	.post {
 		margin-top: -10rem;
+		z-index: 1;
 	}
 
 	.post__background {
@@ -62,9 +63,11 @@
 	}
 
 	.content {
+		padding-top: 1.5rem;
 		padding-right: 2rem;
 		padding-left: 2rem;
 		padding-bottom: 10rem;
+		position: relative;
 	}
 
   @media (min-width: 70em) {
@@ -79,6 +82,7 @@
 		}
 
 		.content {
+			padding-top: 0;
 			padding-right: 25rem;
 			padding-left: 25rem;
 		}
