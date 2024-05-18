@@ -88,7 +88,7 @@
 					<span>CSS3</span>
 					<span>JavaScript</span>
 				</div>
-				<p>De opdracht is om responsive website met een goede flow te leveren, die gebaseerd is op de huisstijl, op voor de opdrachtgever.</p>
+				<p>De opdrachtgever wou een responsive website met een goede flow, die gebaseerd is op de huisstijl.</p>
 				<a class="live" href="https://saml-zelftestapp-campaign-website-flow.vercel.app/index.html" target="_blank">Live link »</a>
 				<a href="https://github.com/DphnZwp/saml-zelftestapp-campaign-website-flow" target="_blank">Github link »</a>
 			</article>
@@ -113,7 +113,7 @@
 					<span>React</span>
 					<span>Typescript</span>
 				</div>
-				<p>Een Quiz ontwerpen en maken, een nieuwe Kahoot voor FDND waarmee het makkelijker is om een quiz te maken en te spelen.</p>
+				<p>Een Quiz website ontwerpen en maken, een nieuwe Kahoot voor FDND waarmee het makkelijker is om een quiz te maken en te spelen.</p>
 				<a class="live" href="https://fdnd-quizzen.netlify.app/" target="_blank">Live link »</a>
 				<a href="https://github.com/DphnZwp/fdnd-quiz-react" target="_blank">Github link »</a>
 			</article>
