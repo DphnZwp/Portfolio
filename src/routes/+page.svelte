@@ -45,19 +45,6 @@
 		<p>Hier zijn een paar projecten die ik heb gemaakt. Bekijk al mijn projecten in <a target="_blank" href="https://github.com/DphnZwp?tab=repositories">Github</a>.</p>
 		<div class="project">
 			<article>
-				<h3>Visitekaartje</h3>
-				<div class="characteristics">
-					<span>HTML5</span>
-					<span>CSS3</span>
-					<span>JavaScript</span>
-					<span>Sveltekit</span>
-					<span>Prismic</span>
-				</div>
-				<p>Het visitekaartje is gemaakt in Sveltekit. De data komt van Prismic.</p>
-				<a class="live" href="https://your-tribe-for-life-profile-card-zeta.vercel.app/" target="_blank">Live link »</a>
-				<a href="https://github.com/DphnZwp/your-tribe-for-life-profile-card" target="_blank">Github link »</a>
-			</article>
-			<article>
 				<h3>Creative coding</h3>
 				<div class="characteristics">
 					<span>HTML5</span>
@@ -104,18 +91,6 @@
 				<p>Een toegankelijke website voor VIP-IT gemaakt met eleventy. De website is gekoppeld aan Netlify CMS.</p>
 				<a class="live" href="https://vip-it.netlify.app/" target="_blank">Live link »</a>
 				<a href="https://github.com/DphnZwp/vip-it" target="_blank">Github link »</a>
-			</article>
-			<article>
-				<h3>FDND Quizzen</h3>
-				<div class="characteristics">
-					<span>HTML5</span>
-					<span>CSS3</span>
-					<span>React</span>
-					<span>Typescript</span>
-				</div>
-				<p>Een Quiz website ontwerpen en maken, een nieuwe Kahoot voor FDND waarmee het makkelijker is om een quiz te spelen.</p>
-				<a class="live" href="https://fdnd-quizzen.netlify.app/" target="_blank">Live link »</a>
-				<a href="https://github.com/DphnZwp/fdnd-quiz-react" target="_blank">Github link »</a>
 			</article>
 		</div>
 	</section>
